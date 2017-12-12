@@ -35,6 +35,7 @@ class Kernel extends ConsoleKernel
      */
     protected function commands()
     {
+        $artisan = $this;
         require base_path('routes/console.php');
     }
 }
