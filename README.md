@@ -391,10 +391,6 @@ $users = App\User::all(['name', 'email'])->toArray();
 $this->table($headers, $users);
 ```
 
-表格布局输出如下：
-
-![img](http://static.laravelacademy.org/wp-content/uploads/2018/02/laravel-artisan-table.jpg)
-
 **进度条**
 
 对需要较长时间运行的任务，显示进度指示器很有用，使用该输出对象，我们可以开始、前进以及停止该进度条。在开始进度时你必须定义步数，然后每走一步进度条前进一格：
